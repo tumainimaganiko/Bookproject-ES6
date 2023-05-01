@@ -1,3 +1,6 @@
+import Store from './modules/store.js';
+import Book from './modules/book.js';
+
 class UI {
     static displayBooks() {
       const books = Store.getBooks();
