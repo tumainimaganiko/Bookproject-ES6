@@ -3,7 +3,7 @@
     "luxon": "^3.3.0"
   },
   "name": "bookproject-es6",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
