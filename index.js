@@ -62,6 +62,12 @@ bookList.addEventListener('click', (e) => {
   UI.removeBook(e.target);
 });
 
+setInterval(() => {
+    const date = DateTime.now();
+    document.querySelector('#date').innerHTML = date.toLocaleString(
+      DateTime.DATETIME_MED,
+    );
+  }, 1000);
 
 const list = document.getElementById('list');
 list.addEventListener('click', (e) => {
